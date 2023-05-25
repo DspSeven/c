@@ -1,7 +1,7 @@
-import './App.css'
+import MainPage from "./components/MainPage/index";
 
-import GithubPopularRepos from './components/GithubPopularRepos'
+import "./App.css";
 
-const App = () => <GithubPopularRepos />
+const App = () => <MainPage />;
 
-export default App
+export default App;
